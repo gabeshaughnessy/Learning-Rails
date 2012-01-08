@@ -1,6 +1,8 @@
 Learningrails::Application.routes.draw do
   resources :jobs
 
+	root:to => 'jobs#index'
+	
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
